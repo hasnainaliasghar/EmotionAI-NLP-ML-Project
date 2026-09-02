@@ -111,12 +111,11 @@ st.markdown("**✨ Try an example:**")
 cols = st.columns(3)
 for i, ex in enumerate(EXAMPLES):
     if cols[i % 3].button(ex[:30] + "…", key=f"ex_{i}", use_container_width=True):
-        st.session_state["input_text"] = ex
+        st.session_state["text_input"] = ex
 
 # ── Input ─────────────────────────────────────────────────────────────────────
 text = st.text_area(
     "📝 Enter your text:",
-    value=st.session_state.get("input_text", ""),
     placeholder="Type something like: I feel so happy today!",
     height=130,
     key="text_input",
