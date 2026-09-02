@@ -5,7 +5,7 @@ A machine-learning web app that detects emotions from text using a TF-IDF + Logi
 **Emotions detected:** sadness 😢 · anger 😠 · love ❤️ · surprise 😲 · fear 😨 · joy 😄
 
 ## 🚀 Live Demo
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://emotionai-nlp-ml-project-wtufqpdvuwctqxrt7mkrhe.streamlit.app/)
 
 ## Run locally
 ```bash
